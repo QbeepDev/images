@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
     <channel>
-        <title>SmartMFDealers- Appcast</title>
+        <title>SmartMFDealers - Appcast</title>
         <item>
             <title>Version 1.1.4</title>
             <description>Latest release</description>
             <pubDate>Wed, 24 May 2024 10:23:00 +0000</pubDate>
-            <enclosure url="https://play.google.com/store/apps/details?id=com.smartmfdealers.smfd" sparkle:version="1.1.4" sparkle:os="android" />
+            <enclosure 
+                url="https://play.google.com/store/apps/details?id=com.smartmfdealers.smfd" 
+                sparkle:version="1.1.4" 
+                sparkle:os="android" 
+            />
+            <enclosure 
+                url="https://apps.apple.com/us/app/smartmfdealers/idYOUR_APP_ID" 
+                sparkle:version="1.1.4" 
+                sparkle:os="ios" 
+            />
         </item>
     </channel>
 </rss>
